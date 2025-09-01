@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 10%;
+  padding: 3vh 2vw !important ;
+  /* background-color: #f6fcff; */
+}
+.footer-copywright {
+  text-align: center;
+}
+
+.footer-body {
+  z-index: 1;
+  text-align: center !important;
+}
+
+.footer h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8) !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}

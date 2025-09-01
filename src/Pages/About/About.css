@@ -1,0 +1,126 @@
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.home-content {
+  padding: 10rem 6rem !important;
+  text-align: left;
+}
+
+.avatar-image {
+  /* border-radius: 50%;
+  overflow: hidden; */
+  width: 100%;
+  /* max-width: 340px;
+  max-height: 340px; */
+}
+
+.sentence {
+  font-style: italic;
+}
+
+.heading {
+  font-size: 3.4em !important;
+  font-weight: 610;
+  color: #f5a9b8;
+}
+
+.content {
+  font-size: 1em !important;
+  font-weight: 400 !important;
+  line-height: 1.5;
+  .small-content {
+    font-style: italic;
+  }
+}
+
+.footer-icons {
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+.social-icons {
+  display: inline-block !important;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  .svg {
+    color: black;
+    width: 1.5em;
+    height: 1.5em;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .svg:hover {
+    color: #f5a9b8;
+    transform: scale(1.1);
+  }
+}
+
+/* Rainbow for pronouns */
+.pros {
+  font-size: 1.4rem;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+
+/* .pros:hover {
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+} */
+
+@media (max-width: 767px) {
+  .home-content {
+    padding: 4.5rem 2rem !important;
+    text-align: left;
+  }
+
+  .heading {
+    font-size: 2.5em !important;
+    font-weight: 610;
+    color: #f5a9b8;
+  }
+}

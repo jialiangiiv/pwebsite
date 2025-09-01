@@ -1,0 +1,54 @@
+.main {
+  margin: 0 10vw;
+  font-size: 1.1rem;
+}
+
+.f-title {
+  font-size: 3.4rem;
+  color: #f5a9b8;
+  font-weight: 610;
+  margin-bottom: 1.6rem;
+}
+
+.f-a {
+  text-decoration: none;
+  color: #f5a9b8;
+  font-weight: 700;
+}
+
+.f-small-title {
+  font-size: 1.8rem;
+  color: #f5a9b8;
+  font-weight: 510;
+  margin-top: 1.6rem;
+}
+
+/* Custom accordion */
+
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: #f5a9b8 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button {
+  font-weight: 400 !important;
+}
+
+.accordion-body {
+  font-size: 1rem !important;
+}
+
+.back {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #f5a9b8;
+  margin-left: 5vw;
+}
