@@ -10,6 +10,10 @@
   margin-bottom: 1.6rem;
 }
 
+.description {
+  font-size: 0.9em;
+}
+
 .f-a {
   text-decoration: none;
   color: #f5a9b8;

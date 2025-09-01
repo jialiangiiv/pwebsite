@@ -13,15 +13,16 @@ function Failure() {
       <div className="main">
         <div className="f-title">Failure Resume 🤷‍♀️</div>
         <p className="description">
-          Perfectionism and excessive self-esteem are the greatest enemies on
-          the path of personal growth. Even though failure sucks, it has taught
-          me a lot about myself: how resilient i am, how far i need to go, and
-          where i need to be. So, here is a list of my academic failures.
+          Failure sucks, but it has taught me a lot about myself: how resilient
+          i am, how far i need to go, and where i need to be. So, here is a list
+          of my academic failures.
         </p>
-        <p>Rejected by CCS 2025 (Second round)</p>
-        <p>Rejected by IEEE S&P 2025 (Second round)</p>
-        <p>Rejected by CHI 2025 (First round)</p>
-        <p>Rejected by PETS 2024 travel grant</p>
+        <ul className="lst">
+          <li>Rejected by CCS 2025 (Second round)</li>
+          <li>Rejected by IEEE S&P 2025 (Second round)</li>
+          <li>Rejected by CHI 2025 (First round)</li>
+          <li>Rejected by PETS 2024 travel grant</li>
+        </ul>
       </div>
       <Footer />
     </>
