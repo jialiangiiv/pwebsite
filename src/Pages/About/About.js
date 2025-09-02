@@ -13,7 +13,7 @@ function About() {
           {/* Picture */}
           <Col md={4} style={{ textAlign: 'left', padding: '0 2rem' }}>
             <img src={personPic} alt="home pic" className="avatar-image" />
-            <p>Email: jy843[at]gwu[dot]edu</p>
+            <p>Email: jy843[at]gwmail[dot]gwu[dot]edu</p>
           </Col>
 
           {/* Content */}
