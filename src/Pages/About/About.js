@@ -59,12 +59,11 @@ function About() {
                 .
               </p>
               <p>
-                My research interests lie in user privacy and online safety,
-                especially from the perspective of gender and sexuality.
+                My research interests lie in user privacy and online safety.
               </p>
               <p>
-                "Jialiang" is pronounced as "Jah-lee-ahng". I use they/them
-                pronouns, but she/her or he/him are totally fine too.
+                "Jialiang" is pronounced as "Jah-lee-ahng". I use she/her
+                pronouns.
               </p>
               <p>
                 In my free time, I enjoy reading and playing guitar. My favorite
