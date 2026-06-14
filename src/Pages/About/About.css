@@ -123,4 +123,11 @@
     font-weight: 610;
     color: #f5a9b8;
   }
+
+  .avatar-image {
+    width: 70%;
+    /* max-width: 220px; */
+    display: block;
+    margin: 0 auto;
+  }
 }

@@ -62,8 +62,7 @@ function About() {
                 My research interests lie in user privacy and online safety.
               </p>
               <p>
-                "Jialiang" is pronounced as "Jah-lee-ahng". I use she/her
-                pronouns.
+                I use she/her pronouns. "Jialiang" is pronounced as "Jah-lee-ahng". 
               </p>
               <p>
                 In my free time, I enjoy reading and playing guitar. My favorite
